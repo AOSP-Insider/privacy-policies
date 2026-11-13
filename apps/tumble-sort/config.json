@@ -1,0 +1,7 @@
+{
+  "interstitial_cooldown_sec": 90,
+  "first_ad_level": 13,
+  "interstitial_every_levels": 2,
+  "rewarded_enabled": true,
+  "interstitial_enabled": true
+}
