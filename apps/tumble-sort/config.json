@@ -2,6 +2,11 @@
   "interstitial_cooldown_sec": 90,
   "first_ad_level": 13,
   "interstitial_every_levels": 2,
+  "interstitial_skip_after_restarts": 2,
+  "win_bonus_every": 3,
+  "theme_unlock_ads": 3,
+  "daily_gift_enabled": true,
   "rewarded_enabled": true,
-  "interstitial_enabled": true
+  "interstitial_enabled": true,
+  "level_swaps": []
 }
