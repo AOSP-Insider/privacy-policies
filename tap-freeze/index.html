@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TAP Freeze Privacy Policy</title><link rel="stylesheet" href="../style.css"></head><body>
+<main>
+  <div class="card">
+<nav><a href="./">Privacy</a> · <a href="terms/">Terms</a> · <a href="delete-data/">Data deletion</a></nav>
+<h1>TAP Freeze: NFC App Blocker — Privacy Policy</h1>
+<p class="muted">Publisher: Samir Dubey · Contact: <a href="mailto:contact2sdcode@gmail.com">contact2sdcode@gmail.com</a> · App: <code>com.sdcode.tapfreeze</code> · Effective date: 24/11/2026</p>
+
+<p>TAP Freeze lets you freeze distracting apps with a card you already own (or a printed QR Key), so only that card brings them back. It was built so that your focus data stays on your phone. This policy explains exactly what happens to your data.</p>
+
+<h2>The short version</h2>
+<ul>
+<li><b>No account.</b> TAP Freeze never asks for your name, email or phone number.</li>
+<li><b>Your keys, modes, app list and focus history never leave your phone.</b> We run no server that receives them, and they are excluded from Android backups.</li>
+<li><b>Anonymous crash reports and usage stats</b> (Google Firebase) help fix bugs. They never include your apps, keys, modes or focus history, and you can switch them off.</li>
+<li><b>The free version shows ads from Google AdMob.</b> TAP Freeze Pro has no ads and never starts the ad SDK.</li>
+<li><b>Purchases are handled by Google Play.</b> We never see your payment details.</li>
+</ul>
+
+<h2>What stays on your phone</h2>
+<p>TAP Freeze stores the following only in its private on-device database. None of it is sent to us or anyone else:</p>
+<table>
+<tr><th>Data</th><th>Why</th></tr>
+<tr><td>Key fingerprints</td><td>A one-way keyed hash of your NFC card's ID, or the token in your QR Key. The card's actual ID is never stored. The hashing key is generated on your phone and protected by Android Keystore.</td></tr>
+<tr><td>Modes and the apps in them</td><td>So TAP Freeze knows what to freeze.</td></tr>
+<tr><td>Focus sessions, "reaches" and Emergency Thaw history</td><td>To show Insights and enforce the Emergency Thaw limit.</td></tr>
+<tr><td>Schedules and settings</td><td>Appearance, haptics and similar preferences.</td></tr>
+</table>
+<p>Uninstalling TAP Freeze, or clearing its storage, deletes all of it permanently. We cannot recover it, because we never had it.</p>
+
+<h2>Permissions and what they are used for</h2>
+<table>
+<tr><th>Permission</th><th>Used for</th></tr>
+<tr><td>Usage access</td><td>To learn the <b>name</b> of the app you just opened, so a frozen app can be covered. TAP Freeze never sees what you do inside any app.</td></tr>
+<tr><td>Display over other apps</td><td>To show the frost screen over a frozen app.</td></tr>
+<tr><td>Ignore battery optimisation</td><td>So your phone does not close TAP Freeze in the middle of a freeze.</td></tr>
+<tr><td>NFC</td><td>To read your card's ID when you tap it to freeze or thaw.</td></tr>
+<tr><td>Camera</td><td>Only to scan your QR Key. Frames are decoded on the phone and discarded immediately; nothing is saved or sent.</td></tr>
+<tr><td>Notifications</td><td>The quiet "Frozen" status, schedule reminders and a warning if a permission is switched off.</td></tr>
+<tr><td>Alarms &amp; reminders</td><td>To start Pro schedules exactly on time.</td></tr>
+<tr><td>Run at startup</td><td>To bring an active freeze back after your phone restarts.</td></tr>
+<tr><td>Internet, network state, advertising ID</td><td>Ads in the free version, crash reports and usage stats, and Google Play purchases.</td></tr>
+</table>
+<p>TAP Freeze does not use Accessibility services and does not read your installed-app list off the phone.</p>
+
+<h2>Crash reports and usage stats (Firebase)</h2>
+<p>TAP Freeze uses <b>Firebase Crashlytics</b> and <b>Google Analytics for Firebase</b>, provided by Google. They are on for new installs and can be turned off any time in <b>You → Share crash reports and usage stats</b>; nothing is sent while it is off.</p>
+<ul>
+<li><b>Crashlytics</b> sends a report when the app crashes: the technical stack trace, device model, Android version, app version and a random installation identifier.</li>
+<li><b>Analytics</b> records a few product events — for example that a freeze started or ended, that a key was linked, or that the Pro screen was opened — with only general values such as the mode template ("Sleep", "Deep Work"), card or QR, and rough ranges ("1–3 apps", "30 min – 2 h"). It <b>never</b> includes the names of your apps, keys or modes, or your focus history. Analytics is configured not to collect the advertising ID, not to personalise ads and not to track screens automatically.</li>
+<li>Firebase keeps analytics data for up to 14 months and crash data for up to 90 days.</li>
+</ul>
+
+<h2>Advertising (free version only)</h2>
+<p>The free version uses the <b>Google Mobile Ads SDK (AdMob)</b>: one banner on the Insights screen and, at most once a day, a full-screen ad after you thaw. To show and measure ads and prevent fraud, Google may process your advertising ID, IP-derived general location, ad views and taps, and diagnostic data. In the EEA, UK, Switzerland and applicable US states, Google's consent message (UMP) asks for your choices before ads are requested; change them in <b>You → Ad privacy choices</b>. You can reset or delete your advertising ID in Android settings. <b>TAP Freeze Pro removes ads completely.</b></p>
+<p>TAP Freeze never passes your keys, modes, app list, usage history or focus data to the ad SDK or to Firebase.</p>
+
+<h2>Purchases</h2>
+<p>TAP Freeze Pro is sold through <b>Google Play Billing</b> (monthly or yearly subscription, or a one-time lifetime purchase). Google processes payments, renewals, refunds and restoration. TAP Freeze receives only a purchase token and the purchase status, which it caches on the phone so Pro keeps working offline.</p>
+
+<h2>Third parties</h2>
+<p>Google processes data under its own terms and privacy policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. How Google uses data from apps: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a>. Firebase privacy: <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+
+<h2>Children</h2>
+<p>TAP Freeze is not directed at children under 13 and we do not knowingly collect personal information from them. If you believe a child's data was collected, contact us and we will delete it.</p>
+
+<h2>Security and your choices</h2>
+<p>On-device data lives in TAP Freeze's private storage, which other apps cannot read. Key fingerprints are keyed hashes and cannot be turned back into your card's ID. Data sent to Google services is encrypted in transit. You can switch off crash reports and usage stats, change ad privacy choices, delete keys and modes, or ask us to delete data — see <a href="delete-data/">Data deletion</a>.</p>
+
+<h2>Changes</h2>
+<p>We may update this policy when the app or its services change. The effective date above shows the current version; material changes are also noted in the app's release notes.</p>
+  </div>
+</main>
+</body></html>
