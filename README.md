@@ -9,6 +9,7 @@ https://aosp-insider.github.io/privacy-policies/
 | JoyDeck: Offline Mini Games (`com.sdcode.joydeck`) | https://aosp-insider.github.io/privacy-policies/joydeck/ |
 | TAP Freeze: NFC App Blocker (`com.sdcode.tapfreeze`) | https://aosp-insider.github.io/privacy-policies/tap-freeze/ (terms: `tap-freeze/terms/`, data deletion: `tap-freeze/delete-data/`) |
 | Ball Adventure 3D (`com.sdcode.balladventure3d`) | https://aosp-insider.github.io/privacy-policies/ball-adventure-3d/ (terms: `ball-adventure-3d/terms/`, data deletion: `ball-adventure-3d/delete-data/`) |
+| SmoothRec: Screen Recorder Pro (`com.sdcode.smoothrec`) | https://aosp-insider.github.io/privacy-policies/smoothrec/ (terms: `smoothrec/terms/`, data deletion: `smoothrec/delete-data/`) |
 
 To add an app, create a folder named after it with an `index.html` (copy `tumble-sort/index.html`), then link it from `index.html` and this table.
 
